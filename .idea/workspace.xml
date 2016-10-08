@@ -2,57 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de96463-5ed4-4296-9eb3-caf0ee9e073e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AppleJavaExtensions.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ECUxPlot.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ECUxPlot.xml.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4Z7907551R.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4Z7907551R.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4Z7907551R.kp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4Z7907551R.xdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551F.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551F.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551F.kp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551F.xdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551G.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551G.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551G.kp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551G.xdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551H.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551H.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551H.kp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551H.xdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551K.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551M.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551M.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551M.kp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/8D0907551M.xdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/gendefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/test8maps.kp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flanagan-dist.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jcommon-1.0.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jfreechart-1.0.14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapdump.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapdump.xml.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/opencsv-2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/B5S4/constants.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/B5S4/fueling.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/profiles/B8S4/constants.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ECUxPlot.nsi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/MacOS.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/Windows.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/classheader.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/fileassoc.nsh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/svn-tag" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/nyet/util/Version.java.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/subbuild.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MacOS.data/JavaApplicationStub" afterPath="$PROJECT_DIR$/MacOS.data/JavaApplicationStub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flanagan.jar" afterPath="$PROJECT_DIR$/flanagan.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/nyet/ecuxplot/ECUxDataset.java" afterPath="$PROJECT_DIR$/src/org/nyet/ecuxplot/ECUxDataset.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/nyet/logfile/Dataset.java" afterPath="$PROJECT_DIR$/src/org/nyet/logfile/Dataset.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/nyet/util/FileDropListener.java" afterPath="$PROJECT_DIR$/src/org/nyet/util/FileDropListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mapdump_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/nyet/mappack/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ECUxPlot.app/Contents/Resources/Java/ecuxplot.jar" afterPath="$PROJECT_DIR$/dist/ECUxPlot.app/Contents/Resources/Java/ecuxplot.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/WinECUxPlot/ecuxplot.jar" afterPath="$PROJECT_DIR$/dist/WinECUxPlot/ecuxplot.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ecuxplot_jar/ecuxplot.jar" afterPath="$PROJECT_DIR$/out/artifacts/ecuxplot_jar/ecuxplot.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ecuxplot/org/nyet/util/Version.class" afterPath="$PROJECT_DIR$/out/production/ecuxplot/org/nyet/util/Version.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/nyet/util/Version.java" afterPath="$PROJECT_DIR$/src/org/nyet/util/Version.java" />
     </list>
     <ignored path="ecuxplot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,6 +50,7 @@
         <option value="$PROJECT_DIR$/src/org/nyet/ecuxplot/ECUxPlot.java" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/org/nyet/util/FileDropListener.java" />
+        <option value="$PROJECT_DIR$/src/org/nyet/util/Version.java" />
       </list>
     </option>
   </component>
@@ -136,8 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,8 +112,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecuxplot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecuxplot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecuxplot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecuxplot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nyet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecuxplot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecuxplot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nyet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -167,7 +179,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flanagan.jar!/" />
   </component>
   <component name="RunManager" selected="JAR Application.ecuxplot JAR">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -458,17 +470,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.4914163" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5114449" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.48855507" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.48855507" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.48569384" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.48855507" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24391988" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24391988" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -479,7 +492,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -548,14 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecuxplot.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -591,13 +595,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/nyet/util/Version.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/nyet/util/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/nyet/mappack/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ecuxplot:jar</last-edited>
+          <last-edited>mapdump:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
