@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de96463-5ed4-4296-9eb3-caf0ee9e073e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mapdump_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/nyet/mappack/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/ECUxPlot.app/Contents/Resources/Java/ecuxplot.jar" afterPath="$PROJECT_DIR$/dist/ECUxPlot.app/Contents/Resources/Java/ecuxplot.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/WinECUxPlot/ecuxplot.jar" afterPath="$PROJECT_DIR$/dist/WinECUxPlot/ecuxplot.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ecuxplot_jar/ecuxplot.jar" afterPath="$PROJECT_DIR$/out/artifacts/ecuxplot_jar/ecuxplot.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ecuxplot/org/nyet/util/Version.class" afterPath="$PROJECT_DIR$/out/production/ecuxplot/org/nyet/util/Version.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/nyet/util/Version.java" afterPath="$PROJECT_DIR$/src/org/nyet/util/Version.java" />
     </list>
     <ignored path="ecuxplot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +25,11 @@
     <leaf />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Robert Hilton &lt;robert.a.hilton.jr@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -453,6 +451,14 @@
       <option name="presentableId" value="Default" />
       <updated>1475875027521</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update version and add target for mapdump">
+      <created>1475966905335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475966905335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -504,6 +510,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update version and add target for mapdump" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version and add target for mapdump" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
