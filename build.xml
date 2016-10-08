@@ -1,39 +1,69 @@
-<?xml version="1.0"?>
-<project default="all">
+<project name="ECUxPlot" default="dist" basedir=".">
+    <description>
+        Update of ECUx Build
+    </description>
+    <!-- set global properties for this build -->
+    <property name="src" location="src"/>
+    <property name="build" location="build"/>
+    <property name="dist" location="dist"/>
 
-    <target name="properties">
-	<mkdir dir="build" />
-	<exec executable="make">
-	    <arg value="build/build.properties" />
-	</exec>
+    <taskdef name="jarbundler" classname="com.ultramixer.jarbundler.JarBundler" classpath="jarbundler-core-3.3.0.jar"/>
+
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp/>
+        <!-- Create the distribution directory -->
+        <mkdir dir="${dist}"/>
     </target>
 
-    <target name="version">
-	<exec executable="make">
-	    <arg value="src/org/nyet/util/Version.java" />
-	</exec>
+    <target name="compile" depends="init"
+            description="compile the source">
+        <!-- Compile the java code from ${src} into ${build} -->
+        <javac srcdir="${src}" destdir="${build}"/>
     </target>
 
-    <target name="prep" depends="properties,version">
-        <mkdir dir="build/classes"/>
+    <target name="distmac" depends="init" description="generate the macOS distribution">
+        <!-- Package the macOS distribution -->
+        <jarbundler dir="${dist}"
+                    name="ECUxPlot"
+                    mainclass="org.nyet.ecuxplot.ECUxPlot"
+                    jar="out/artifacts/ecuxplot_jar/ecuxplot.jar"
+                    icon="MacOS.data/ECUxPlot.icns"
+        />
+
+        <copy file="MacOS.data/Info.plist"
+              tofile="dist/ECUxPlot.app/Contents/Info.plist"
+              overwrite="true"
+        />
+
+        <copy file="MacOS.data/JavaApplicationStub"
+              tofile="dist/ECUxPlot.app/Contents/MacOS/JavaApplicationStub"
+              overwrite="true"
+        />
     </target>
 
-    <target name="compile" depends="prep">
-	<ant antfile="subbuild.xml" target="compile"/>
+    <target name="distwin" depends="init" description="generate the Windows distribution">
+        <!-- Create the Windows distribution directory -->
+        <mkdir dir="${dist}/WinECUxPlot"/>
+
+        <copy file="Win.data/ECUxPlotLauncher.exe"
+              tofile="dist/WinECUxPlot/ECUxPlot.exe"
+              overwrite="true"
+        />
+
+        <copy file="out/artifacts/ecuxplot_jar/ecuxplot.jar"
+              tofile="dist/WinECUxPlot/ecuxplot.jar"
+              overwrite="true"
+        />
     </target>
 
-    <target name="all" depends="prep">
-	<ant antfile="subbuild.xml" target="all"/>
+    <target name="dist" depends="distmac,distwin" description="generate the distribution">
     </target>
 
-    <target name="run" depends="prep">
-	<ant antfile="subbuild.xml" target="run"/>
+    <target name="clean"
+            description="clean up">
+        <!-- Delete the ${build} and ${dist} directory trees -->
+        <delete dir="${build}"/>
+        <delete dir="${dist}"/>
     </target>
-
-    <target name="clean">
-	<exec executable="make">
-	    <arg value="clean" />
-	</exec>
-    </target>
-
 </project>

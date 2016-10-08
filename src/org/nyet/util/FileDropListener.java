@@ -139,8 +139,9 @@ public class FileDropListener implements DropTargetListener {
 
         final BufferedReader read = new BufferedReader(flavor.getReaderForText(tr));
         // Remove 'file://' from file name
-        String fileName = read.readLine().substring(7).replace("%20", " ");
+        String fileName = read.readLine().replace("file://", "");
         // Remove 'localhost' from OS X file names
+        System.out.println(fileName);
         if (fileName.substring(0, 9).equals("localhost")) {
             fileName = fileName.substring(9);
         }

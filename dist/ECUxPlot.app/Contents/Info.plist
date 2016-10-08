@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plist version="1.0">
+  <dict>
+    <key>CFBundleName</key>
+    <string>ECUxPlot</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleAllowMixedLocalizations</key>
+    <string>false</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleExecutable</key>
+    <string>JavaApplicationStub</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+	<key>CFBundleIconFile</key>
+	<string>ECUxPlot.icns</string>
+    <key>MainClass</key>
+    <string>org.nyet.ecuxplot.ECUxPlot</string>
+	<key>JavaX</key>
+	<dict>
+		<key>MainClass</key>
+		<string>org.nyet.ecuxplot.ECUxPlot</string>
+		<key>JVMVersion</key>
+		<string>1.7+</string>
+		<key>ClassPath</key>
+		<array>
+			<string>$JAVAROOT/ECUxPlot.jar</string>
+		</array>
+	</dict>
+  </dict>
+</plist>

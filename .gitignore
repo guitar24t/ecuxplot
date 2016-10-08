@@ -1,10 +1,1 @@
-*.class
-*.exe
-*.swp
-*.tmp
-.metadata
-build
-ECUxPlot*.jar
-ECUxPlot*.tar.gz
-mapdump.jar
-src/org/nyet/util/Version.java
+.DS_Store

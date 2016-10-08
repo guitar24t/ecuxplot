@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.regex.Pattern;
 import java.text.SimpleDateFormat;
 
-import au.com.bytecode.opencsv.*;
+import com.opencsv.*;
 
 import org.nyet.util.DoubleArray;
 
